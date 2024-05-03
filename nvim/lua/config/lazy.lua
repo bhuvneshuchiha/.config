@@ -16,7 +16,11 @@ require("lazy").setup({
     { "rose-pine/neovim", name = "rose-pine" },
     { "sainnhe/sonokai", name = "sonokai" },
     { "akinsho/toggleterm.nvim", version = "*", config = true },
-
+    {
+      "ThePrimeagen/harpoon",
+      branch = "harpoon2",
+      dependencies = { "nvim-lua/plenary.nvim" },
+    },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
