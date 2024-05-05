@@ -29,7 +29,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
         "fileHash": "cc7cd4d1c301bbbac958fd48d4143c3590b19844f32ea90e002adc136baa89b7459587e80e529bdbfe417ae6b9e504cff93aff6a9d71afa38ef664bbead1c251"
       },
-      "expiry": 1713990279379
+      "expiry": 1714941070564
     },
     "/opt/homebrew/bin/python3.11.v3": {
       "data": {
@@ -54,7 +54,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
         "fileHash": "2d0cbce929f05f54c7a77dacbcacc8c52bcae69d1ffc93cccd91b2a8cc9451f03e17fa7daefc72d47f6ad18842aa4da6a0fcf02ec0aab342f0d8e7a93f608891"
       },
-      "expiry": 1713990279378
+      "expiry": 1714941070550
     },
     "/usr/local/bin/python3.10.v3": {
       "data": {
@@ -79,7 +79,7 @@
         "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "267d4685a16eadf4000b7aa6dd7d1dc04b78c192f24d8007aa82a9b7c33e4fd4b99db11bf1fa94c4f67e2da69a830c228a9a457796635bea1e979d13b8087db6"
       },
-      "expiry": 1713990279394
+      "expiry": 1714941070747
     },
     "/usr/local/bin/python3.v3": {
       "data": {
@@ -104,7 +104,7 @@
         "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "c7c4a0d58b407c1a043555b114c7e990885b65a14655ff75e367adad75304332b5ebe4d6f3337a21222fc5c2aa8c32a9c14b447f292a2847423e76e9866ec958"
       },
-      "expiry": 1713990279393
+      "expiry": 1714941070746
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -129,7 +129,7 @@
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
         "fileHash": "4d088b30f374bc767af48b4a6f97a1a25f7ada5d3b7ad2c50e1e9e7bfa7eca89fed5b8290c63845d0299b00ee3a2161aa92af35fb4cafada3d5cb0f83492a90d"
       },
-      "expiry": 1713990279377
+      "expiry": 1714941070558
     },
     "/Library/Developer/CommandLineTools/usr/bin/python3.v3": {
       "data": {
@@ -154,7 +154,7 @@
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
         "fileHash": "1de46276f75533fda3264d31229965ac7422bf1943f87689faae88cb061914d013ab63cad490a152d42e020ce7d0e697273ba782106dc2c74eecdefb185bfdc6"
       },
-      "expiry": 1713990279375
+      "expiry": 1714941070570
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -202,7 +202,8 @@
       },
       "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
       "fileHash": "1de46276f75533fda3264d31229965ac7422bf1943f87689faae88cb061914d013ab63cad490a152d42e020ce7d0e697273ba782106dc2c74eecdefb185bfdc6",
-      "type": "Unknown"
+      "type": "Unknown",
+      "cachedEntry": true
     },
     "preferredGlobalPyInterpreter": {
       "architecture": 3,
@@ -369,52 +370,6 @@
       },
       {
         "architecture": 3,
-        "path": "/opt/homebrew/bin/python3",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.11.7-final",
-          "major": 3,
-          "minor": 11,
-          "patch": 7,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.11.7-final"
-        },
-        "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
-        "fileHash": "cc7cd4d1c301bbbac958fd48d4143c3590b19844f32ea90e002adc136baa89b7459587e80e529bdbfe417ae6b9e504cff93aff6a9d71afa38ef664bbead1c251",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
-        "path": "/opt/homebrew/bin/python3.11",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.11.7-final",
-          "major": 3,
-          "minor": 11,
-          "patch": 7,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.11.7-final"
-        },
-        "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
-        "fileHash": "2d0cbce929f05f54c7a77dacbcacc8c52bcae69d1ffc93cccd91b2a8cc9451f03e17fa7daefc72d47f6ad18842aa4da6a0fcf02ec0aab342f0d8e7a93f608891",
-        "type": "Unknown"
-      },
-      {
-        "architecture": 3,
         "path": "/usr/local/bin/python3",
         "version": {
           "options": {
@@ -543,7 +498,7 @@
         "sysPrefix": "/Users/bhuvnesh/anaconda3",
         "fileHash": "8162e1304586536cd9945da39a2237fdb41b3ffff739633ea3ee61be86021b7e25d1bb0a9dd67b3cb452e21a244722d00b04ea8fb935cc70ca7b84a146ef2fb2"
       },
-      "expiry": 1713990280766
+      "expiry": 1714941072020
     },
     "ProposeLSBanner": false,
     "CONDA_ENVIRONMENTS": {},
@@ -605,7 +560,7 @@
         "displayName": "Python 3.11.7 64-bit",
         "hash": "cc7cd4d1c301bbbac958fd48d4143c3590b19844f32ea90e002adc136baa89b7459587e80e529bdbfe417ae6b9e504cff93aff6a9d71afa38ef664bbead1c251-181241461ab19ebe3aebb9cfaf4abec3"
       },
-      "expiry": 1713990279396
+      "expiry": 1714941070563
     },
     "/Users/bhuvnesh/anaconda3/bin/python.interpreter.displayName.v7": {
       "data": {
@@ -650,6 +605,7 @@
       "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
       "fileHash": "cc7cd4d1c301bbbac958fd48d4143c3590b19844f32ea90e002adc136baa89b7459587e80e529bdbfe417ae6b9e504cff93aff6a9d71afa38ef664bbead1c251",
       "type": "Unknown",
+      "cachedEntry": true,
       "displayName": "Python 3.11.7 64-bit"
     },
     "/opt/homebrew/bin/python3.interpreter.Details.v7": {
@@ -677,10 +633,12 @@
           "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
           "fileHash": "cc7cd4d1c301bbbac958fd48d4143c3590b19844f32ea90e002adc136baa89b7459587e80e529bdbfe417ae6b9e504cff93aff6a9d71afa38ef664bbead1c251",
           "type": "Unknown",
-          "displayName": "Python 3.11.7 64-bit"
+          "cachedEntry": true,
+          "displayName": "Python 3.11.7 64-bit",
+          "__store": true
         }
       },
-      "expiry": 1713990279448
+      "expiry": 1714941070554
     },
     "/Users/bhuvnesh/anaconda3/bin/python.interpreter.Details.v7": {
       "data": {

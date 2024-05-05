@@ -1,10 +1,21 @@
+import = [
+    "~/.config/alacritty/alacritty-theme/themes/ayu_dark.toml"
+]
 
+
+[window]
+padding.x = 10
+padding.y = 10
+opacity = 0.75
+blur = true
+
+decorations = "Full"
 
 [font]
-size = 17
-normal = { family = "Fira Code"}
-[window]
-decorations = "Transparent"
-opacity= 0.60
-blur = true
-startup_mode = "Windowed"
+normal.family = "MesloLGS Nerd Font Mono"
+
+#regular
+size = 16
+
+#for video
+# size = 35.0
