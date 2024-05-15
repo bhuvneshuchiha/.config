@@ -30,6 +30,8 @@ return {
         "tsserver",
         "html",
         "cssls",
+        "clangd",
+        "jdtls",
         "tailwindcss",
         -- "svelte",
         "lua_ls",

@@ -29,6 +29,7 @@ return {
         "rust",
         "yaml",
         "html",
+        "java",
         "css",
         "python",
         "prisma",
